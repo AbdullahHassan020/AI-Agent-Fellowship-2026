@@ -1,33 +1,69 @@
-# 👋 Hello, I'm Abdullah
-Welcome to my AI Engineering Fellowship repository. This repository contains my assignments, projects, and learning progress throughout the Visibility Bots Innovation Lab AI Summer Internship 2026.
+# 🤖 AI Workspace
 
-## 👨‍🎓 University
-FAST National Univeristy of Computer and Emerging Sciences
+AI Workspace is a Streamlit-based application that provides a unified interface for interacting with AI models.
 
-## 🚀 Fellowship Track
-**Track 2: NLP & AI Agents**
+## Features
 
-## 🎯 Career Goals
-I aspire to become an AI Engineer and build intelligent AI-powered applications that solve real-world problems. Through this fellowship, I aim to strengthen my knowledge of Large Language Models (LLMs), AI Agents, Prompt Engineering, and AI application development.
+- 💬 AI Chat Interface
+- ⚙️ Custom System Prompt
+- 🤖 Model Selection (Simulation Supported)
+- 📝 Prompt Templates
+- 📜 Conversation History
+- 📥 Export Chat
+- 📊 Chat Statistics
+- ⏱ Response Time Measurement
+- 💬 Multiple Chat Sessions
+- 🗑 Clear Current Chat
+- ✅ Error Handling
+- 📱 Responsive UI
 
-## 💻 Technical Skills
+## Prompt Templates
+
+- Summarize Text
+- Explain Code
+- Generate Ideas
+- Rewrite Content
+- Translate
+- Create Email
+- Brainstorm
+
+## Technologies Used
+
 - Python
-- C++
-- HTML & CSS
-- Git & GitHub
-- Currently Learning:
-  - Prompt Engineering
-  - Streamlit
-  - OpenAI API
-  - AI Agents
+- Streamlit
+- OpenRouter API
+- OpenAI Python SDK
 
-## 📚 Learning Goals
-During this fellowship, I want to:
-- Understand modern AI Engineering concepts.
-- Learn how AI Agents are designed and developed.
-- Build AI-powered applications using LLM APIs.
-- Improve my Prompt Engineering skills.
-- Learn API integration and tool calling.
-- Write clean, maintainable code.
-- Document projects professionally.
-- Build a strong AI development portfolio.
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+## Project Structure
+
+```
+AI-Workspace/
+│
+├── app.py
+├── requirements.txt
+├── .env
+├── README.md
+│
+├── components/
+│   └── templates.py
+│
+└── utils/
+    └── openrouter.py
+```
+
+## Author
+
+Internship Assignment 3
+AI Workspace
